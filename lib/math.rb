@@ -9,30 +9,30 @@ def subtraction(num1, num2)
 num3 = num1 - num2
 return num3
 end
-subtraction(10,5)
+puts subtraction(10,5)
 
 def division(num1, num2)
   num3 = num1/num2
   return num3
 end
-division(50,2)
+puts division(50,2)
 
 
 def multiplication(num1, num2)
 num3 = num1*num2
 return num3
 end
-multiplication(4,30)
+puts multiplication(4,30)
 
 def modulo(num1, num2)
   num3= num1%num2
   return num3
 end
-modulo(34,5)
+puts modulo(34,5)
 
 def square_root(num)
-puts Math.sqrt(num)
-
+root = Math.sqrt(num)
+return root
 end
 
-square_root(81)
+puts square_root(81)
